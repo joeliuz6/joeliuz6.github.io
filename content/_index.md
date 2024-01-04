@@ -2,8 +2,10 @@
 title: Home
 ---
 
-{{<figure src="https://animalcorner.org/wp-content/uploads/2020/07/Japanese-Dog-Breeds-Akita.jpg" title="This is me, which is me (我就是我，不一样的烟火)" width="450">}}
+{{<figure src="head.jpg" title="Envy is never blind, but contentment is also hot (羡慕而不盲目,知足也知火候)" width="450">}}
 
-I was born on Mars in 2011. Four days after my birth, I moved to the Earth with my family. There, what I saw shocked me greatly. 
+Hi, there! I am a first-year Ph.D. student in the Computer Science Department at the University of Rochester. My advisor is [Prof. Hangfeng He](https://hornhehhf.github.io/). Before joining Prof. He's lab, I got my bachelor degree of Automation at South China University of Technology. 
 
-这是我 2011 年在火星出生后第三天的照片。第四天，我被运往地球，在那里看到的东西把我吓傻了。
+My current research interests lie in trustworthness in large language models. Specially, I aim to develop robust evaluation methods for text generation tasks, such as summarization. Previously, I am also interested in efficient ML and hardware-software codesin. 
+
+一个不懂计算机的计算机Ph.D.
