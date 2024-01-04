@@ -1,6 +1,6 @@
 baseURL = "https://joeliuz6.github.io/"
 languageCode = "en-us"
-title = "Hugo-HT"
+title = "Homepage Zhuo Liu"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
