@@ -16,23 +16,23 @@ posts = "/posts/:year/:month/:day/:slug/"
     url = "/"
     weight = 1
 [[menu.en]]
-    name = "About"
-    url = "/en/about/"
+    name = "Research"
+    url = "/en/Research/"
     weight = 2
 [[menu.en]]
-    name = "Posts"
-    url = "/en/posts/"
+    name = "Blog"
+    url = "/en/Blog/"
     weight = 3
 [[menu.en]]
     name = "中文"
     url = "/cn/posts/"
     weight = 4
 [[menu.cn]]
-    name = "关于"
+    name = "科研"
     url = "/cn/about/"
     weight = 1
 [[menu.cn]]
-    name = "日志"
+    name = "博文"
     url = "/cn/posts/"
     weight = 2
 [[menu.cn]]
