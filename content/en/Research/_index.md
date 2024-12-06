@@ -9,7 +9,7 @@ type: list-single
   In arXiv 2024. [pdf](https://arxiv.org/pdf/2403.03391)
 
 ## Conferences
-### 2024
+## 2024
 - **Can CLIP Count Stars? An Empirical Study on Quantity Bias in CLIP**  
   *Zeliang Zhang, Zhuo Liu, Mingqian Feng, Chenliang Xu*  
   In EMNLP 2024. [pdf](https://aclanthology.org/2024.findings-emnlp.59/)
@@ -18,7 +18,7 @@ type: list-single
   *Rongyi Zhu, Zeliang Zhang, Susan Liang, Zhuo Liu, Chenliang Xu*  
   In CVPR 2024. [pdf](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Learning_to_Transform_Dynamically_for_Better_Adversarial_Transferability_CVPR_2024_paper.pdf)
 
-### 2023
+## 2023
 - **Ising-CF: A Pathbreaking Collaborative Filtering Method Through Efficient Ising Machine Learning**  
   *Zhuo Liu, Y. Yang, Z. Pan, A. Sharma, A. Hasan, C. Ding, A. Li, M. Huang, T. Geng*  
   In DAC 2023. [pdf](https://ieeexplore.ieee.org/document/10247860)
@@ -27,7 +27,7 @@ type: list-single
   *Z. Pan, A. Sharma, J. Hu, Zhuo Liu, A. Li, H. Liu, M. Huang, T. Geng*  
   In AAAI 2023. [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26121)
 
-### 2022
+## 2022
 - **A Classification-Assisted Level-Based Learning Evolutionary Algorithm for Expensive Multiobjective Optimization Problems**  
   *Zhuo Liu, Xiaolin Xiao, Feng-Feng Wei, Wei-Neng Chen*  
   In GECCO 2022. [pdf](https://dl.acm.org/doi/10.1145/3512290.3528771)
