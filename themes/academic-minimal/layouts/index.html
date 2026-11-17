@@ -16,21 +16,24 @@
   </figure>
 </section>
 
-<section id="research" class="home-section" aria-labelledby="research-title">
+<section id="research" class="home-section section-layout" aria-labelledby="research-title">
   <div class="section-heading"><h2 id="research-title">Research interests</h2></div>
   {{ partial "research-topics.html" . }}
 </section>
 
-<section id="publications" class="home-section" aria-labelledby="publications-title">
+<section id="publications" class="home-section section-layout selected-publications" aria-labelledby="publications-title">
   <div class="section-heading"><h2 id="publications-title">Selected publications</h2><a class="text-link" href="{{ .Site.Params.researchURL | relURL }}#publications">All publications <span aria-hidden="true">↗</span></a></div>
   <ol class="publication-list">
     {{ range where .Site.Data.publications "selected" true }}{{ partial "publication.html" . }}{{ end }}
   </ol>
 </section>
 
-<section class="home-section service-teaching" aria-label="Academic service and teaching">
-  <div><h2>Service</h2><ul class="plain-list">{{ range .Site.Data.academic.service }}<li>{{ . | markdownify }}</li>{{ end }}</ul></div>
-  <div><h2>Teaching</h2><ul class="plain-list">{{ range .Site.Data.academic.teaching }}<li><strong>{{ .course }}</strong><span class="detail">{{ .term }}</span></li>{{ end }}</ul></div>
+<section class="home-section section-layout" aria-labelledby="academic-title">
+  <div class="section-heading"><h2 id="academic-title">Academic activities</h2></div>
+  <div class="service-teaching">
+    <div><h3>Service</h3><ul class="plain-list">{{ range .Site.Data.academic.service }}<li>{{ . | markdownify }}</li>{{ end }}</ul></div>
+    <div><h3>Teaching</h3><ul class="plain-list">{{ range .Site.Data.academic.teaching }}<li><strong>{{ .course }}</strong><span class="detail">{{ .term }}</span></li>{{ end }}</ul></div>
+  </div>
 </section>
 
 <section class="contact-section" aria-labelledby="contact-title"><div><h2 id="contact-title">Let’s connect.</h2><p>I welcome research conversations and collaborations.</p></div><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }} <span aria-hidden="true">↗</span></a></section>

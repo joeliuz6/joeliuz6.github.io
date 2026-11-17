@@ -12,7 +12,8 @@
   <meta name="author" content="{{ .Site.Params.author }}">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" type="image/svg+xml" href="{{ .Site.Params.favicon | relURL }}">
-  <link rel="stylesheet" href="{{ "css/academic.css" | relURL }}">
+  {{ $styleVersion := readFile "themes/academic-minimal/static/css/academic.css" | md5 }}
+  <link rel="stylesheet" href="{{ "css/academic.css" | relURL }}?v={{ $styleVersion }}">
   <meta property="og:title" content="{{ $title }}">
   <meta property="og:description" content="{{ $description }}">
   <meta property="og:url" content="{{ .Permalink }}">

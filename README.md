@@ -1,6 +1,6 @@
 # Zhuo Liu’s academic homepage
 
-Hugo source for <https://joeliuz6.github.io/>. Uses **Academic Minimal**, a custom local theme in `themes/academic-minimal/`: warm white background, restrained burgundy accents, readable publication lists, and responsive layouts. It has no JavaScript, external fonts, npm packages, or Hugo module dependencies.
+Hugo source for <https://joeliuz6.github.io/>. Uses **Academic Minimal**, a custom local theme in `themes/academic-minimal/`: warm white background, restrained burgundy accents, serif publication titles, and a desktop layout with section headings beside the content. Narrow screens place the portrait beside the name and stack the sections vertically. It has no JavaScript, external fonts, npm packages, or Hugo module dependencies. The stylesheet URL includes a content hash so published layout changes refresh reliably.
 
 ## Preview and build
 
@@ -59,7 +59,7 @@ Commit and push source changes to `master` to publish an update. Check the repos
 
 ## Migration notes
 
-- Biography came from the sibling `../home_page/` draft. The research statement was replaced verbatim with the author’s updated statement on November 16, 2026. The biography now includes hardware–software co-design work with Tony Geng; the homepage affiliation label and RA experience section were removed at the author’s request.
+- Biography came from the sibling `../home_page/` draft. The research statement was replaced verbatim with the author’s updated statement on November 16, 2026. The biography now includes hardware–software co-design work with Prof. Tony Geng; the homepage affiliation label and RA experience section were removed at the author’s request.
 - The current portrait is an exact copy of the supplied `../new.png`, served as `/media/new.png` on the homepage and in social sharing metadata. Earlier portraits remain in `static/media/`.
 - The current CV is an exact copy of `../Zhuo_Liu_Resume.pdf`, supplied on November 16, 2026. It is served at the existing `/files/CV_ZhuoLiu.pdf` address to preserve download links. The previous CV is backed up at `../.homepage-backup/CV-before-resume-2026-11-16.pdf`.
 - The publication list contains all 18 entries supplied by the author, with 5 selected for the homepage: Compiler-Guided Adaptive Proof Search, Style or Content?, Model Prior, TreeRare, and AdvEvo-MARL. AAAI papers remain in the complete Research list and are excluded from the homepage selection.
