@@ -30,7 +30,7 @@ The output is `public/`, which is ignored by Git. Hugo **0.81.0** is the tested 
 | Research interests, teaching, service | `data/academic.json` |
 | Research introduction | `content/en/Research/_index.md` |
 | Blog articles | `content/en/Blog/` |
-| Portrait | `static/media/profile-line-art.png` |
+| Portrait | `static/media/new.png` |
 | CV | `static/files/CV_ZhuoLiu.pdf` |
 | Colors, spacing, responsive layout | `themes/academic-minimal/static/css/academic.css` |
 
@@ -60,7 +60,7 @@ Commit and push source changes to `master` to publish an update. Check the repos
 ## Migration notes
 
 - Biography came from the sibling `../home_page/` draft. The research statement was replaced verbatim with the author’s updated statement on November 16, 2026. The biography now includes hardware–software co-design work with Tony Geng; the homepage affiliation label and RA experience section were removed at the author’s request.
-- The current portrait is an exact copy of the supplied `../彩色线稿青年肖像.png`, served as `/media/profile-line-art.png` on the homepage and in social sharing metadata. The previous photograph remains at `static/media/profile.png`.
+- The current portrait is an exact copy of the supplied `../new.png`, served as `/media/new.png` on the homepage and in social sharing metadata. Earlier portraits remain in `static/media/`.
 - The current CV is an exact copy of `../Zhuo_Liu_Resume.pdf`, supplied on November 16, 2026. It is served at the existing `/files/CV_ZhuoLiu.pdf` address to preserve download links. The previous CV is backed up at `../.homepage-backup/CV-before-resume-2026-11-16.pdf`.
 - The publication list contains all 18 entries supplied by the author, with 5 selected for the homepage: Compiler-Guided Adaptive Proof Search, Style or Content?, Model Prior, TreeRare, and AdvEvo-MARL. AAAI papers remain in the complete Research list and are excluded from the homepage selection.
 - CoRMF and AdvEvo-MARL remain in the **2025** group at the author’s explicit request. CoRMF links to the final Physica A article (volume 681, 2026); AdvEvo-MARL displays **ICML 2026** as its venue while retaining the 2025 preprint year for grouping.
