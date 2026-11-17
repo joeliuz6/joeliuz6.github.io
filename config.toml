@@ -14,7 +14,7 @@ posts = "/posts/:year/:month/:day/:slug/"
 
 [params]
 author = "Zhuo Liu"
-description = "Zhuo Liu is a Ph.D. candidate in Computer Science at the University of Rochester, researching reasoning, knowledge acquisition, and adaptation in intelligent systems."
+description = "Zhuo Liu is a Ph.D. candidate in Computer Science at the University of Rochester, researching reasoning, representation learning, knowledge acquisition, and adaptation in intelligent systems."
 role = "Ph.D. candidate in Computer Science"
 institution = "University of Rochester"
 email = "zhuo.liu@rochester.edu"

@@ -46,8 +46,6 @@ strong { font-weight: 600; }
 .name-period { color: var(--accent); }
 .role { margin: 17px 0 32px; color: var(--muted); font-size: 14px; letter-spacing: .02em; }
 .bio { max-width: 720px; }
-.bio p:nth-of-type(2) { margin-block: 24px; font: 21px/1.6 var(--serif); letter-spacing: -.012em; }
-.bio p:nth-of-type(2) strong { font-weight: 400; color: var(--accent); }
 .bio p:last-child { color: var(--muted); font-size: 14px; line-height: 1.85; }
 .prose p + p { margin-top: 17px; }
 .prose a { text-decoration-color: #b98385; }
@@ -67,7 +65,7 @@ strong { font-weight: 600; }
 .text-link { font-size: 13px; text-decoration: none; white-space: nowrap; }
 .text-link:hover { text-decoration: underline; }
 .text-link span { margin-left: 7px; }
-.research-topics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; padding-bottom: 4px; }
+.research-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; padding-bottom: 4px; }
 .research-topic { min-width: 0; padding-top: 16px; border-top: 1px solid #c6ada6; }
 .research-topic h3 { margin-bottom: 12px; font: 22px/1.2 var(--serif); letter-spacing: -.02em; }
 .research-topic p { font-size: 14px; line-height: 1.75; color: var(--muted); }
@@ -162,7 +160,6 @@ strong { font-weight: 600; }
   .eyebrow { font-size: 10px; letter-spacing: .1em; margin-bottom: 15px; }
   .role { grid-column: 1; grid-row: 2; align-self: start; font-size: 13px; margin: 12px 0 0; }
   .bio { grid-column: 1 / -1; grid-row: 3; margin-top: 32px; font-size: 15px; }
-  .bio p:nth-of-type(2) { font-size: 20px; margin-block: 22px; }
   .portrait-block { grid-column: 2; grid-row: 1 / 3; margin: 0; }
   .portrait { width: 124px; padding: 4px; }
   .portrait-block figcaption { font-size: 9px; margin-top: 8px; letter-spacing: .02em; }

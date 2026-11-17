@@ -1,6 +1,7 @@
 {
   "topics": [
     {"title": "Reasoning", "description": "How models reason beyond their prior knowledge and form new abstractions."},
+    {"title": "Representation learning", "description": "How models learn representations that support abstraction, reasoning, and adaptation."},
     {"title": "Knowledge acquisition", "description": "How models learn new knowledge and integrate it into their reasoning."},
     {"title": "Adaptation", "description": "How intelligent systems adapt their reasoning to unfamiliar environments."}
   ],
