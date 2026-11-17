@@ -1,7 +1,5 @@
 ---
-title: "English page"
-type : nolisting
+title: "Explore"
 ---
 
-### English homepage test 
-
+Browse my research and writing.

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<header class="page-heading"><p class="eyebrow">{{ .Site.Params.author }}</p><h1>{{ .Title }}</h1><div class="prose page-intro">{{ .Content }}</div></header>
+<div class="writing-list">
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="writing-entry">
+    {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ if .IsPage }}<p>{{ .Summary | plainify | htmlUnescape }}</p><a class="text-link" href="{{ .RelPermalink }}">Read note <span aria-hidden="true">→</span></a>{{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ end }}

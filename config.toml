@@ -1,127 +1,40 @@
 baseURL = "https://joeliuz6.github.io/"
 languageCode = "en-us"
-title = "Homepage Zhuo Liu"
-theme = "hugo-ht"
-footnotereturnlinkcontents = "↩"
+title = "Zhuo Liu"
+theme = "academic-minimal"
 enableRobotsTXT = true
-# enableGitInfo = true
+summaryLength = 32
+footnotereturnlinkcontents = "↩"
 
+# Keep the original URL structure for existing articles.
 [permalinks]
 cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
-[[menu.en]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.en]]
-    name = "Research"
-    url = "/en/Research/"
-    weight = 2
-[[menu.en]]
-    name = "Blog"
-    url = "/en/Blog/"
-    weight = 3
-
 [params]
-    description = "Peronal website of Your Name"
-    homeText = "You just need a Hugo blog from scratch"
-    # Please make sure `blogDirNmae` matches the name used in `menu` above:
-    blogDirName = "posts"
-    # singleLang = true
-    defaultLang = "en"
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
-    MathJaxVersion = "2.7.5"
-    favicon = "media/logo.png"
-    # Edit by yourself:
-    GithubEdit = "https://github.com/joeliuz6/joeliuz6.github.io/edit/master/content/"
-    copyright = "&copy;"
-    copyrightYear = "2020-2024"
-    # Edit by yourself:
-    GithubRepo = "https://github.com/joeliuz6/joeliuz6.github.io"
-    # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/joeliuz6/joeliuz6.github.io/master/content/" 
+author = "Zhuo Liu"
+description = "Zhuo Liu is a Ph.D. student in Computer Science at the University of Rochester, researching reasoning, knowledge acquisition, and adaptation in intelligent systems."
+role = "Ph.D. student in Computer Science"
+institution = "University of Rochester"
+email = "zhuo.liu@rochester.edu"
+portrait = "/media/profile-line-art.png"
+favicon = "/media/zhuo-liu-mark.svg"
+cv = "/files/CV_ZhuoLiu.pdf"
+scholar = "https://scholar.google.com/citations?hl=en&user=xUoWkqIAAAAJ"
+github = "https://github.com/joeliuz6"
+linkedin = "https://www.linkedin.com/in/zhuo-liu-b322a0291/"
+researchURL = "/en/research/"
+blogURL = "/en/blog/"
 
-[params.logo]
-  # Change the logo picture as your prefer:
-  url = "media/logo.png" # you can change it
-  width = 50.0
-  height = 50.0
-  alt = "Z6"
+[markup.goldmark.renderer]
+unsafe = true
 
-[params.lang]
+[markup.highlight]
+codeFences = true
+style = "friendly"
+tabWidth = 4
 
-    [params.lang.author]
-      en = "Zhuo Liu"
-      cn = "卓"
-
-    [params.lang.madeWith]
-      en = "Made with"
-      cn = "本站驱动"
-
-    [params.lang.edit]
-      en = "Suggest an edit of this page"
-      cn = "编辑本页"
-
-    [params.lang.lastupdate]
-      en = "Last modified on"
-      cn = "最后一次修改于"
-
-    [params.lang.Sitelastupdate]
-      en = "Site last updated on"
-      cn = "最近一次更新于"
-
-    [params.lang.sourceCode]
-      en = "Content in"
-      cn = "内容存于"
-
-    [params.lang.subscribe]
-      en = "Subscribe"
-      cn = "订阅"
-
-    [params.lang.license]
-      en = "License"
-      cn = "版权"
-
-[markup]
- defaultMarkdownHandler = "goldmark"
-
-  [markup.goldmark]
-
-    [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = false
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-
-    [markup.goldmark.parser]
-    attribute = true
-    autoHeadingID = true
-
-    [markup.goldmark.renderer]
-    hardWraps = false
-    unsafe = true
-    xHTML = false
-  
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "pygments"
-    tabWidth = 4
-
-  [markup.tableOfContents]
-  endLevel = 3
-  ordered = true
-  startLevel = 2
-
-[imaging]
-quality = 100
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3

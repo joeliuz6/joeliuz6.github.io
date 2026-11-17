@@ -1,11 +1,9 @@
 ---
-title: Home
+title: "About"
 ---
 
-{{<figure src="head.jpg" title="Envy is never blind, but contentment is also hot (知足也知火候)" width="200">}}
+I am a Ph.D. student in Computer Science at the **University of Rochester**, advised by [Prof. Hangfeng He](https://hornhehhf.github.io/).
 
-Hi, there! I am a second-year Ph.D. student in the Computer Science Department at the University of Rochester. My advisor is [Prof. Hangfeng He](https://hornhehhf.github.io/). Before joining Prof. He's lab, I got my bachelor degree of Automation at South China University of Technology. 
+My research focuses on **reasoning, knowledge acquisition, and adaptation in intelligent systems**. I am particularly interested in how models learn beyond their prior knowledge, form new abstractions, and adapt their reasoning to unfamiliar environments.
 
-My current research interests center on exploring data utilization in the era of Large Language Models (LLMs). Specifically, I focus on developing new methods compressing data to better natural language representations through LLMs, with the goal of enhancing downstream tasks. I am also deeply interested in efficient machine learning and hardware-software co-design.
-
-I welcome collaborations of all kinds—feel free to reach out to me at [zhuo.liu@rochester.edu].
+Before starting my Ph.D., I received an M.S. in Computer Engineering from the University of Rochester, where I worked with [Tony Geng](https://www.tonytgeng.com/) on hardware–software co-design. I received my B.Eng. in Automation from South China University of Technology.

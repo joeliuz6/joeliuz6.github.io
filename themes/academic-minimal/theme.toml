@@ -1,0 +1,6 @@
+name = "Academic Minimal"
+description = "A lightweight academic homepage with publications, research, and writing."
+min_version = "0.81.0"
+
+[author]
+name = "Zhuo Liu"

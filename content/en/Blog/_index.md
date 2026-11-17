@@ -1,7 +1,6 @@
 ---
-title: 'English Posts'
-date: ''
+title: "Notes & writing"
+description: "Research notes on machine learning and natural language processing."
 ---
 
-## Posts
-
+Notes on research, papers, and ideas in machine learning.

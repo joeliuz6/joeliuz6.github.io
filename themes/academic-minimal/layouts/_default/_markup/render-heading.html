@@ -1,0 +1,3 @@
+{{- $level := .Level -}}
+{{- if and .Page.IsPage (lt $level 6) -}}{{- $level = add $level 1 -}}{{- end -}}
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>

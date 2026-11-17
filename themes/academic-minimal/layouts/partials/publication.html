@@ -1,0 +1,10 @@
+<li class="publication">
+  <div class="publication-meta"><span class="venue">{{ .venue }}</span><span class="publication-year">{{ .year }}</span>{{ with .note }}<span class="publication-note">{{ . }}</span>{{ end }}</div>
+  <div class="publication-body">
+    <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+    <p class="authors">{{ replace .authors "Zhuo Liu" "**Zhuo Liu**" | markdownify }}</p>
+    {{ with .description }}<p class="publication-description">{{ . }}</p>{{ end }}
+    <a class="paper-link" href="{{ .url }}" aria-label="Read paper: {{ .title }}">Paper <span aria-hidden="true">↗</span></a>
+    {{ with .code }}<a class="paper-link" href="{{ . }}">Code <span aria-hidden="true">↗</span></a>{{ end }}
+  </div>
+</li>

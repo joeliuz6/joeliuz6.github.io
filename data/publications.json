@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Compiler-Guided Adaptive Proof Search with Cross-Model Synergy on Context-Dependent Theorem Proving",
+    "authors": "Zhuo Liu, Ding Yu, Hangfeng He",
+    "venue": "EMNLP Findings",
+    "year": "2026",
+    "selected": true,
+    "url": "https://aclanthology.org/2026.findings-emnlp.669/"
+  },
+  {
+    "title": "Fast Numbers, Slow Language: Bridging Quantitative and Qualitative Earnings Signals",
+    "authors": "Ding Yu, Zhuo Liu, Hao Zhang, Hangfeng He",
+    "venue": "arXiv",
+    "year": "2026",
+    "note": "Preprint",
+    "selected": false,
+    "url": "https://arxiv.org/abs/2606.29734"
+  },
+  {
+    "title": "Style or Content? Evaluating Style Classifiers with Controlled Content Overlap",
+    "authors": "Zhuo Liu, Haozheng Du, Xiangxiang Xu, Hangfeng He",
+    "venue": "arXiv",
+    "year": "2026",
+    "note": "Preprint",
+    "selected": true,
+    "url": "https://arxiv.org/abs/2606.07103"
+  },
+  {
+    "title": "Caption Anything in Video: Fine-grained Object-centric Captioning via Spatiotemporal Multimodal Prompting",
+    "authors": "Yolo Yunlong Tang, Jing Bi, Chao Huang, Susan Liang, Daiki Shimada, Hang Hua, Yunzhong Xiao, Yizhi Song, Pinxin Liu, Mingqian Feng, Junjia Guo, Zhuo Liu, Luchuan Song, Ali Vosoughi, Jinxi He, Liu He, Zeliang Zhang, Jiebo Luo, Chenliang Xu",
+    "venue": "AAAI",
+    "year": "2026",
+    "note": "Demo",
+    "selected": false,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42385"
+  },
+  {
+    "title": "On the Role of Model Prior in Real-World Inductive Reasoning",
+    "authors": "Zhuo Liu, Ding Yu, Hangfeng He",
+    "venue": "EMNLP",
+    "year": "2025",
+    "note": "Oral",
+    "selected": true,
+    "url": "https://aclanthology.org/2025.emnlp-main.534/"
+  },
+  {
+    "title": "CoRMF: Criticality-Ordered Recurrent Mean Field Ising Solver",
+    "authors": "Zhenyu Pan, Zhuo Liu, En-Jui Kuo",
+    "venue": "Physica A",
+    "year": "2025",
+    "selected": false,
+    "url": "https://doi.org/10.1016/j.physa.2025.131070"
+  },
+  {
+    "title": "Same Company, Same Signal: The Role of Identity in Earnings Call Transcripts",
+    "authors": "Ding Yu, Zhuo Liu, Hangfeng He",
+    "venue": "ACL Findings",
+    "year": "2025",
+    "selected": false,
+    "url": "https://aclanthology.org/2025.findings-acl.946/"
+  },
+  {
+    "title": "TreeRare: Syntax Tree-Guided Retrieval and Reasoning for Knowledge-Intensive Question Answering",
+    "authors": "Boyi Zhang, Zhuo Liu, Hangfeng He",
+    "venue": "EMNLP",
+    "year": "2025",
+    "selected": true,
+    "url": "https://aclanthology.org/2025.emnlp-main.947/"
+  },
+  {
+    "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+    "authors": "Zhenyu Pan, Yiting Zhang, Zhuo Liu, Yolo Yunlong Tang, Zeliang Zhang, Haozheng Luo, Yuwei Han, Jianshu Zhang, Dennis Wu, Hong-Yu Chen, Haoran Lu, Haoyang Fang, Manling Li, Chenliang Xu, Philip S. Yu, Han Liu",
+    "venue": "ICML 2026",
+    "year": "2025",
+    "selected": true,
+    "url": "https://arxiv.org/abs/2510.01586"
+  },
+  {
+    "title": "What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-Boosted Mathematical Reasoning",
+    "authors": "Yiran Ma, Zui Chen, Tianqiao Liu, Mi Tian, Zhuo Liu, Zitao Liu, Weiqi Luo",
+    "venue": "AAAI",
+    "year": "2025",
+    "selected": false,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34663"
+  },
+  {
+    "title": "Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting",
+    "authors": "Jiarui Wu, Zhuo Liu, Hangfeng He",
+    "venue": "NAACL Findings",
+    "year": "2025",
+    "note": "Short paper",
+    "selected": false,
+    "url": "https://aclanthology.org/2025.findings-naacl.192/"
+  },
+  {
+    "title": "Can CLIP Count Stars? An Empirical Study on Quantity Bias in CLIP",
+    "authors": "Zeliang Zhang, Zhuo Liu, Mingqian Feng, Chenliang Xu",
+    "venue": "EMNLP Findings",
+    "year": "2024",
+    "note": "Short paper",
+    "selected": false,
+    "url": "https://aclanthology.org/2024.findings-emnlp.59/"
+  },
+  {
+    "title": "Learning to Transform Dynamically for Better Adversarial Transferability",
+    "authors": "Rongyi Zhu, Zeliang Zhang, Susan Liang, Zhuo Liu, Chenliang Xu",
+    "venue": "CVPR",
+    "year": "2024",
+    "selected": false,
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Learning_to_Transform_Dynamically_for_Better_Adversarial_Transferability_CVPR_2024_paper.pdf"
+  },
+  {
+    "title": "Scalable CP Decomposition for Tensor Learning using GPU Tensor Cores",
+    "authors": "Zeliang Zhang, Zhuo Liu, Susan Liang, Zhiyuan Wang, Yifan Zhu, Chen Ding, Chenliang Xu",
+    "venue": "arXiv",
+    "year": "2023",
+    "note": "Preprint",
+    "selected": false,
+    "url": "https://arxiv.org/abs/2311.13693"
+  },
+  {
+    "title": "Ising-CF: A Pathbreaking Collaborative Filtering Method Through Efficient Ising Machine Learning",
+    "authors": "Zhuo Liu, Y. Yang, Z. Pan, A. Sharma, A. Hasan, C. Ding, A. Li, M. Huang, T. Geng",
+    "venue": "DAC",
+    "year": "2023",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/10247860"
+  },
+  {
+    "title": "Ising-Traffic: Using Ising Machine Learning to Predict Traffic Congestion under Uncertainty",
+    "authors": "Zhenyu Pan, Anshujit Sharma, Jerry Yao-Chieh Hu, Zhuo Liu, Ang Li, Han Liu, Michael Huang, Tong Geng",
+    "venue": "AAAI",
+    "year": "2023",
+    "selected": false,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26121"
+  },
+  {
+    "title": "CoDG-ReRAM: An Algorithm-Hardware Co-design to Accelerate Semi-Structured GNNs on ReRAM",
+    "authors": "Y. Luo, P. Behnam, K. Thorat, Zhuo Liu, Hongwu Peng, Shaoyi Huang, Shu Zhou, Omer Khan, Alexey Tumanov, Caiwen Ding, Tong Geng",
+    "venue": "ICCD",
+    "year": "2022",
+    "selected": false,
+    "url": "https://ieeexplore.ieee.org/document/9978275"
+  },
+  {
+    "title": "A Classification-Assisted Level-Based Learning Evolutionary Algorithm for Expensive Multiobjective Optimization Problems",
+    "authors": "Zhuo Liu, Xiaolin Xiao, Feng-Feng Wei, Wei-Neng Chen",
+    "venue": "GECCO",
+    "year": "2022",
+    "selected": false,
+    "url": "https://dl.acm.org/doi/10.1145/3512290.3528771"
+  }
+]

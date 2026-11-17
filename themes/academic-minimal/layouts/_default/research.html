@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-heading"><p class="eyebrow">Research</p><h1>{{ .Title }}</h1><div class="prose page-intro">{{ .Content }}</div></header>
+<section class="research-overview" aria-labelledby="research-interests-title"><h2 id="research-interests-title" class="sr-only">Research interests</h2>{{ partial "research-topics.html" . }}</section>
+<section id="publications" class="home-section" aria-labelledby="all-publications-title">
+  {{ $years := slice }}
+  {{ range .Site.Data.publications }}{{ $years = $years | append .year }}{{ end }}
+  {{ $years = sort (uniq $years) "value" "desc" }}
+  <div class="section-heading"><h2 id="all-publications-title">Publications</h2><a class="text-link" href="{{ .Site.Params.scholar }}">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  <nav class="year-nav" aria-label="Publication years">{{ range $years }}<a href="#year-{{ . }}">{{ . }}</a>{{ end }}</nav>
+  {{ $publications := .Site.Data.publications }}
+  {{ range $years }}
+  <section class="publication-group" aria-labelledby="year-{{ . }}"><h2 id="year-{{ . }}" class="year-heading">{{ . }}</h2><ol class="publication-list">{{ range where $publications "year" . }}{{ partial "publication.html" . }}{{ end }}</ol></section>
+  {{ end }}
+</section>
+{{ end }}

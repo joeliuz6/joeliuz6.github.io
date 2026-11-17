@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="article">
+  <header class="page-heading"><a class="back-link" href="{{ .Site.Params.blogURL | relURL }}">← All writing</a><h1>{{ .Title }}</h1><div class="article-meta">{{ .Params.author | default .Site.Params.author }}{{ if not .Date.IsZero }}<span aria-hidden="true"> · </span><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}</div></header>
+  {{ if .Params.toc }}<details class="toc"><summary>On this page</summary>{{ .TableOfContents }}</details>{{ end }}
+  <div class="prose article-body">{{ .Content }}</div>
+  {{ with .Params.tags }}<nav class="article-tags" aria-label="Tags">{{ range . }}<a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}</nav>{{ end }}
+</article>
+{{ end }}

@@ -1,6 +1,8 @@
 ---
 title: "Towards Flexible Fairness-accuracy Tradeoff With Label Constraints"
-date: 2024/2/13
+date: 2024-02-13
+aliases:
+  - /en/1/01/01/fairness/
 author: Zhuo Liu
 slug: fairness
 draft: false

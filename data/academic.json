@@ -1,0 +1,18 @@
+{
+  "topics": [
+    {"title": "Reasoning", "description": "How models reason beyond their prior knowledge and form new abstractions."},
+    {"title": "Knowledge acquisition", "description": "How models learn new knowledge and integrate it into their reasoning."},
+    {"title": "Adaptation", "description": "How intelligent systems adapt their reasoning to unfamiliar environments."}
+  ],
+  "service": [
+    "**Co-organizer**, Trustworthy Foundation Models Workshop, 2025.",
+    "**Reviewer** for ARR 2024, NeurIPS 2024, and CVPR 2025."
+  ],
+  "teaching": [
+    {"course": "CSC 511 · Large Language Models", "term": "Fall 2024 & Fall 2025"},
+    {"course": "CSC 247/447 · Natural Language Processing", "term": "Spring 2025"},
+    {"course": "ECE 440 · Intro to Random Processes", "term": "Fall 2023 · Teaching Assistant"},
+    {"course": "ECE 113 · Circuits and Signals", "term": "Spring 2023 · Teaching Assistant"},
+    {"course": "ECE 221 · Electronic Circuits and Devices", "term": "Fall 2022 · Teaching Assistant"}
+  ]
+}

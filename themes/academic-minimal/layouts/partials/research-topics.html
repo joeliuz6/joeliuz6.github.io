@@ -1,0 +1,8 @@
+<div class="research-topics">
+  {{ range .Site.Data.academic.topics }}
+  <article class="research-topic">
+    <h3>{{ .title }}</h3>
+    <p>{{ .description }}</p>
+  </article>
+  {{ end }}
+</div>

@@ -1,0 +1,11 @@
+{{ $isWriting := in .RelPermalink "/blog/" }}
+{{ with .CurrentSection }}{{ if eq .RelPermalink ($.Site.Params.blogURL | relURL) }}{{ $isWriting = true }}{{ end }}{{ end }}
+<header class="site-header">
+  <a class="brand" href="{{ "/" | relURL }}" aria-label="Zhuo Liu — home"><span class="brand-mark" aria-hidden="true">ZL<span>.</span></span><span>Zhuo Liu</span></a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="{{ "/" | relURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>About</a>
+    <a href="{{ .Site.Params.researchURL | relURL }}"{{ if eq .Layout "research" }} aria-current="page"{{ end }}>Research</a>
+    <a href="{{ .Site.Params.blogURL | relURL }}"{{ if $isWriting }} aria-current="page"{{ end }}>Writing</a>
+    <a class="nav-cv" href="{{ .Site.Params.cv | relURL }}">CV <span aria-hidden="true">↗</span><span class="sr-only"> (PDF)</span></a>
+  </nav>
+</header>
