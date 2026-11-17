@@ -46,7 +46,6 @@ strong { font-weight: 600; }
 .name-period { color: var(--accent); }
 .role { margin: 17px 0 32px; color: var(--muted); font-size: 14px; letter-spacing: .02em; }
 .bio { max-width: 720px; }
-.bio p:last-child { color: var(--muted); font-size: 14px; line-height: 1.85; }
 .prose p + p { margin-top: 17px; }
 .prose a { text-decoration-color: #b98385; }
 .portrait-block { margin-top: 10px; }
